@@ -1,0 +1,226 @@
+*{
+    font-size: 10px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* conteiner */
+.conteiner{
+    width: 1180px;
+    margin: 0 auto;
+}
+/* ___header___ */
+.header{
+    margin-top: 2.5rem;
+    height: 680px;
+    margin-bottom: 12.5rem;
+}
+.header_logo:hover{
+    transform: scale(1.1);
+}
+/* ===> navigation */
+.navigation{
+    height: 5rem;
+    margin-bottom: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav{
+    width: 33.6rem;
+}
+.ul_link{
+    justify-content: space-between;
+    display: flex;
+}
+.li_link{
+    list-style: none;
+}
+.a_link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+/* Анімація на навігацію */
+.li_link:hover{
+    transform: scale(1.5);
+    transition: 300ms;
+}
+.a_link:hover{
+    font-weight: bold;
+    transition: 300ms;
+}
+.header_btn{
+    display: inline-block;
+    padding: 1.85rem 4.6923rem;
+    border: 0.1rem solid #E8F1FF;
+    border-radius: 1.2rem;
+    background-color: #E8F1FF;
+    color: #2378FF;
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.header_btn:hover{
+    background-color: #9dc4f8;
+    transition: 300ms;
+    transform: scale(1.05);
+}
+/* ==> header_group */
+.header_group{
+    display: flex;
+    justify-content: space-between;
+}
+.header_text{
+    width: 52.1rem;
+    height: 48.6rem;
+}
+.header_text_h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 7.2rem;  
+}
+.header_text_bottom{
+    font-family: 'Roboto', sans-serif;
+    margin: 2.8rem 7.4rem 2.8rem 0rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 3.2rem;
+    color: #606176;
+}
+.header_text_btn{
+    display: inline-block;
+    padding: 2.45rem 7.6375rem;
+    border: 0.1rem solid #F77E53;
+    border-radius: 1.6rem;
+    background-color: #F77E53;
+    color: #FEF4F1;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    text-decoration: none;
+    margin-bottom: 3.5rem;
+}
+.header_text_btn:hover{
+    background-color: #df5b2b;
+    transform: scale(1.05);
+}
+.header_text_footer{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #606176;
+}
+.header_text_footer a{
+    text-decoration: none;
+    color: #606176;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.header_text_footer a:hover{
+    color: #2076FF;
+    text-decoration: underline;
+    transition: 300ms;
+}
+/* --header-- */
+
+/* __logo_group__ */
+.logo_group{
+    height: 14.1rem;
+    margin-bottom: 13rem;
+}
+.logo_group_items{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_group_item1{
+    width: 25.1rem;
+}
+.logo_group_item1_top{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 7.5rem;
+}
+.logo_group_item1_bottom{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 2.8rem;
+    color: #606176;
+}
+.logo_group_item2{
+    width: 86.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* --logo_group-- */
+
+/* __info_group__ */
+.info_group{
+    height: 71rem;
+}
+.info_group_items{
+    display: flex;
+    justify-content: space-between;
+}
+.info_group_item1{
+    height: 70.3rem;
+    width: 42.9rem;
+}
+.info_group_item2{
+    height: 66.1rem;
+    width: 60.7rem;
+}
+
+.info_group_item2_h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 4.4rem;
+    line-height: 5.6rem;
+    color: #101130;
+    margin-right: 15rem;
+    margin-bottom: 6rem;
+}
+.info_group_item2_info1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.5rem;
+}
+.info_group_item2_info2{
+    display: flex;
+    justify-content: space-between;
+}
+.info_group_item2_info1_item{
+    width: 25.6rem;
+    height: 22.2rem;
+}
+.item2_4{
+    width: 26.9rem;
+}
+.info_group_item2_info1_item_top{
+    color: #101130;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-transform: capitalize;
+    margin-top: 2.6rem;
+    margin-bottom: 1.2rem;
+}
+.info_group_item2_info1_item_bottom{
+    font-family: 'Roboto', sans-serif;
+    color: #606176;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
